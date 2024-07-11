@@ -3,7 +3,7 @@ import json
 from tqdm import tqdm
 import time
 
-ETHERSCAN_API_KEY = 'IX99PC4XW7U5Y25T1VXM4ZQZBX1WSVWW1W'
+ETHERSCAN_API_KEY = '9YEUM2IZ3PSHYZYPT5VYIGS9IJCB4WMMJV'
 
 def fetch_transactions_by_block(session, block_number, proxies):
     """根据区块号获取所有交易信息"""
@@ -97,12 +97,11 @@ if __name__ == '__main__':
         #(19388222, 19390607),
         #(19390607, 19397698),
         #(19392970, 19397698)
-        (19900000, 19910000),
-        (19910000, 19920000),
-        (19920000, 19930000),
-        (19930000, 19940000),
-        (19940000, 19950000),
-
+        (19950000, 19960000), 
+        (19960000, 19970000),
+        (19970000, 19980000),
+        (19980000, 19990000),
+        (19990000, 20000000),
         
         #(19397698, 19404850),
         #(19404850, 19412014),
